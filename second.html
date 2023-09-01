@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- making website responsive -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- linking css and javascript file -->
+    <link rel="stylesheet" href="second.css" />
+    <script src=""js/second.js"></script>
+  </head>
+  <body>
+    <script src="second.js"></script>
+    <video autoplay loop muted plays-inline class="backvideo">
+      <source src="video1.mp4" />
+    </video>
+    <nav>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#">home</a></li>
+          <!-- using functions from javascript -->
+          <li><a href="#" onclick="reveal()">popular</a></li>
+          <p class=new id="message" style="display:none">Here are some popular work we offer</p>
+          <li><a href="#" onclick="contact()">contact us</a></li>
+          <p class=new id="contactid" style="display:none">contact us on <br> email:workforu@gmail.com</p>
+          <li>
+            <!-- linking another html page -->
+            <a href="first.html" target="_blank">login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content">
+      <h1>WORK FOR YOU</h1>
+      <a href="#" class="hero-btn">explore</a>
+    </div>
+    <!-- bottom webpage code -->
+    <section class="course">
+      <h1 class="work">work with us</h1>
+      <p style="font-size: 20px" ; fontweight="bold">
+        and know what you deserve
+      </p>
+      <div class="row">
+        <div class="emp">
+          <h3
+            style="
+              font-size: 30px;
+              color: rgb(255, 255, 255);
+              text-shadow: -1px 1px 0 #312212, 1px 1px 0 #c6a9a9,
+                1px -1px 0 #806666, -1px -1px 0 #362616;
+            ">
+            EMPLOYEE
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
+            placeat quas neque laborum unde fuga nisi, consequuntur aliquam
+            perspiciatis, magnam doloribus molestiae quam est vero nemo
+            molestias facilis hic dolore!
+          </p>
+        </div>
+        <div class="emp">
+          <h3
+            style="
+              font-size: 30px;
+              color: rgb(255, 255, 255);
+              text-shadow: -1px 1px 0 #312212, 1px 1px 0 #c6a9a9,
+                1px -1px 0 #806666, -1px -1px 0 #362616;
+            ">
+            EMPLOYER
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
+            placeat quas neque laborum unde fuga nisi, consequuntur aliquam
+            perspiciatis, magnam doloribus molestiae quam est vero nemo
+            molestias facilis hic dolore!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- <a href="first.html"><input type="button" value="LOGIN" /></a> -->
+  </body>
+</html>

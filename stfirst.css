@@ -1,0 +1,23 @@
+body {
+  /* background-color: rgb(252, 253, 192); */
+  background-image: url("hi.jpeg");
+  background-size: cover;
+}
+p {
+  font-size: medium;
+}
+h1 {
+  color: rgb(190, 33, 114);
+  font-weight: 800px;
+  font-family: "Rubik", sans-serif;
+}
+input {
+  color: deeppink;
+  font-weight: bold;
+  font-size: larger;
+}
+label {
+  color: rgb(9, 78, 95);
+  font-weight: bolder;
+  font-size: larger;
+}
